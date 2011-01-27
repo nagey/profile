@@ -92,7 +92,6 @@ projects[drupalforfirebug][subdir] = "developer"
 projects[admin][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
-projects[contemplate][subdir] = "contrib"
 
 ; Themes
 projects[tao][version] = "3.0-beta3"
