@@ -73,6 +73,7 @@ projects[fb][subdir] = "contrib"
 projects[fb][version] = "3.x-dev"
 
 projects[colorbox][subdir] = "contrib"
+projects[colorbox][patch][] = "http://drupal.org/files/issues/colorbox-7.x-1.x-1294856356.patch"
 projects[extlink][subdir] = "contrib"
 projects[rotating_banner][subdir] = "contrib"
 projects[rotating_banner][version] = "1.0-alpha4"
@@ -120,7 +121,7 @@ libraries[ckeditor][destination] = "modules/contrib/wysiwyg/editors"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][destination] = "sites/all/libraries"
+libraries[colorbox][destination] = "../../sites/all/libraries"
 
 
 ;Modules waiting for d7 versions
