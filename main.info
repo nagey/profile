@@ -1,6 +1,6 @@
 ; $Id: standard.info,v 1.2 2010/10/25 15:48:41 webchick Exp $
-name = Main Nagey Group Install Profile
-description = Install profile for Mid-Atlantic Control Systems
+name = Main Profile
+description = Install profile for all Nagey Group Websites
 version = VERSION
 core = 7.x
 dependencies[] = block
@@ -90,6 +90,6 @@ dependencies[] = contemplate
 
 
 
-files[] = mcs.profile
+files[] = main.profile
 
 
