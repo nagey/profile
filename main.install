@@ -85,6 +85,7 @@ function main_install() {
 		"admin_menu_toolbar",
 		"contemplate");
 	for ($modules as $module) {
+		watchdog('profile', "installing $module");
 		module_enable(array($module),true);
 		watchdog('profile', "installed $module");
 	}
