@@ -89,5 +89,4 @@ function main_install() {
 		module_enable(array($module),true);
 		watchdog('profile', "installed $module");
 	}
-	var_dump(); die();
 }
