@@ -10,6 +10,7 @@ function main_install() {
 	include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
 	standard_install();
 	$modules = array(
+		"dblog",
 		"block",
 		"color",
 		"comment",
@@ -23,7 +24,6 @@ function main_install() {
 		"options",
 		"path",
 		"taxonomy",
-		"dblog",
 		"search",
 		"shortcut",
 		"toolbar",

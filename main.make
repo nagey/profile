@@ -108,11 +108,19 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
 libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][destination] = "modules/contrib/wysiwyg/editors"
 
-; FCKEdit 
-libraries[fckeditor][download][type] = "get"
-libraries[fckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
-libraries[fckeditor][directory_name] = "fckeditor"
+; FCKEditor 
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "modules/contrib/wysiwyg/editors"
+
+;Colorbox
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "sites/all/libraries"
 
 
 ;Modules waiting for d7 versions
