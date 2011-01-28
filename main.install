@@ -2,6 +2,22 @@
 // $Id: standard.install,v 1.30 2011/01/04 18:24:24 webchick Exp $
 
 /**
+ * Configures modules installed in the 'main' profile. To be reimplemented by subprofiles
+ *
+ * @author Stefan Nagey
+ */
+
+function main_module_configure() {
+	// Mollom
+	variable_set('mollom_public_key', '');
+	variable_set('mollom_private_key', '');
+	
+	//Google Analytyics
+	variable_set('googleanalytics_account', '');
+	
+}
+
+/**
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
@@ -10,27 +26,6 @@ function main_install() {
 	include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
 	standard_install();
 	$modules = array(
-		"dblog",
-		"block",
-		"color",
-		"comment",
-		"contextual",
-		"dashboard",
-		"help",
-		"image",
-		"list",
-		"menu",
-		"number",
-		"options",
-		"path",
-		"taxonomy",
-		"search",
-		"shortcut",
-		"toolbar",
-		"overlay",
-		"field_ui",
-		"file",
-		"rdf",
 		"cck",
 		"date",
 		"media",
@@ -90,4 +85,7 @@ function main_install() {
 		module_enable(array($module),true);
 		watchdog('profile', "installed $module");
 	}
+	
+	main_module_configure();
+	
 }
