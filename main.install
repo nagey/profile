@@ -85,13 +85,9 @@ function main_install() {
 		"admin_menu_toolbar",
 		"views_bulk_operations",
 		"admin_views");
-		module_enable($modules,true);
-	/*
-	* uncomment to see which modules are being installed in what order
 	foreach ($modules as $module) {
 		watchdog('profile', "installing $module");
 		module_enable(array($module),true);
 		watchdog('profile', "installed $module");
 	}
-	*/
 }
