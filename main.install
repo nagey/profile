@@ -26,6 +26,7 @@ function main_install() {
 	include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
 	standard_install();
 	$modules = array(
+		"openidadmin",
 		"cck",
 		"date",
 		"media",
@@ -64,15 +65,15 @@ function main_install() {
 		"robotstxt",
 		"service_links",
 		"transliteration",
-		"fb",
+		//"fb",
 		"colorbox",
 		"extlink",
 		"rotating_banner",
 		"devel",
 		"devel_themer",
 		"backup_migrate",
-		"sweaver",
-		"skinr",
+		//"sweaver",
+		//"skinr",
 		"drupalforfirebug",
 		"admin",
 		"advanced_help",
