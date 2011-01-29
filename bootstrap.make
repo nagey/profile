@@ -111,13 +111,13 @@ libraries[ckeditor][destination] = "modules/contrib/wysiwyg/editors"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][destination] = "sites/all/libraries"
+libraries[colorbox][destination] = "libraries"
 
 ;Facebook
 libraries[facebook][download][type] = "get"
 libraries[facebook][download][url] = "https://github.com/facebook/php-sdk/zipball/v2.1.2"
 libraries[facebook][directory_name] = "facebook-php-sdk"
-libraries[facebook][destination] = "sites/all/libraries"
+libraries[facebook][destination] = "libraries"
 
 
 ;Modules waiting for d7 versions
