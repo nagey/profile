@@ -6,7 +6,7 @@ core = 7.x
 projects[] = drupal
 api = 2
 
-
+includes[remote] = "http://drupalcode.org/viewvc/drupal/contributions/profiles/buildkit/drupal-org.make?view=co&pathrev=DRUPAL-7--2"
 
 ; Field Types
 projects[cck][subdir] = "contrib"
@@ -22,15 +22,8 @@ projects[name][version] = "1.x-dev"
 
 ;Contrib Modules
 
-projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-alpha3"
-projects[features][subdir] = "contrib"
-projects[views][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
-projects[ctools][subdir] = "contrib"
-projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta2"
 projects[token][subdir] = "contrib"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha3"
@@ -90,13 +83,10 @@ projects[drupalforfirebug][subdir] = "developer"
 
 
 ;admin modules
-projects[admin][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
 
 ; Themes
-projects[tao][version] = "3.0-beta3"
-projects[rubik][version] = "4.0-beta4"
 projects[fusion][version] = "1.x-dev"
 
 ; Libraries
