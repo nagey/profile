@@ -23,6 +23,7 @@ projects[name][version] = "1.x-dev"
 ;Contrib Modules
 
 projects[views_bulk_operations][subdir] = "contrib"
+projects[styles][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[feeds][subdir] = "contrib"
