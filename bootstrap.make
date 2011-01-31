@@ -18,7 +18,7 @@ projects[media][version] = "1.0-beta3"
 projects[link][subdir] = "contrib"
 projects[name][subdir] = "contrib"
 projects[name][version] = "1.x-dev"
-
+projects[references][versions] = "2.x-dev"
 
 ;Contrib Modules
 
@@ -34,6 +34,7 @@ projects[calendar][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[print][subdir] = "contrib"
 projects[addtoany][subdir] = "contrib"
+
 
 projects[wysiwyg][subdir] = "contrib"
 projects[imce][subdir] = "contrib"
