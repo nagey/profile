@@ -28,6 +28,8 @@ function main_install() {
 	$modules = array(
 		"openidadmin",
 		"cck",
+		"node_reference",
+		"user_reference",
 		"styles",
 		"date",
 		"media",
