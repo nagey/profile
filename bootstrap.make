@@ -72,7 +72,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][patch][] = "http://drupal.org/files/issues/colorbox-7.x-1.x-1294856356.patch"
 projects[extlink][subdir] = "contrib"
 projects[rotating_banner][subdir] = "contrib"
-projects[rotating_banner][version] = "dev"
+projects[rotating_banner][version] = "7.x-dev"
 
 
 ;devel modules
